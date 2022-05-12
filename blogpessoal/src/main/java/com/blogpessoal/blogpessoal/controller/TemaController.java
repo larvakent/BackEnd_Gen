@@ -66,8 +66,5 @@ public class TemaController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		
 		temaRepository.deleteById(id);}
-	
-	
-	
 
 }
