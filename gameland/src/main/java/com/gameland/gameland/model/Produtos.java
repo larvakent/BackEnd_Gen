@@ -43,6 +43,10 @@ public class Produtos {
 	@ManyToOne
 	@JsonIgnoreProperties("produtos")
 	private Categoria categoria;
+	
+	@ManyToOne
+	@JsonIgnoreProperties
+	private Usuario usuario;
 
 	public long getId() {
 		return id;
